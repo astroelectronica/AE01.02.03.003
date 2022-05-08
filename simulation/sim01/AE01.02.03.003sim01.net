@@ -1,0 +1,5 @@
+*AE01.02.03.003sim01
+*line regulation (falling)
+.include ../AE01.02.03.003.cir
+.param VCC=5
+.dc V1 {VCC} 0 0.001

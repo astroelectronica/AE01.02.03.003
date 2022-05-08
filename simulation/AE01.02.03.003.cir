@@ -1,0 +1,12 @@
+.title KiCad schematic
+.include "models/BD52E42G.lib"
+.include "models/C2012C0G2W101J060AA_p.mod"
+.include "models/C2012JB2E102M085AA_p.mod"
+.include "models/C2012X7R2A104M125AA_p.mod"
+V1 VCC 0 {VCC}
+XU2 VCC 0 C2012X7R2A104M125AA_p
+XU4 /OUT 0 C2012JB2E102M085AA_p
+XU3 /CT 0 C2012C0G2W101J060AA_p
+R1 VCC /OUT 100K
+XU1 /OUT VCC 0 /CT unconnected-_U1-PadNC_ BD52E42G
+.end

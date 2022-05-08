@@ -1,0 +1,55 @@
+Circuit: *AE01.02.03.003sim01
+
+Instance "m:u1:drv": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:52:4": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:1:6": Length shorter than recommended for a level 1 MOSFET.
+.dc sweep increment has wrong sign -- fixing...
+Ignoring empty pin current: Ix(u1:nc)
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+vernier = 0.5
+Gmin = 2.96428e-008
+vernier = 0.666667
+Gmin = 7.61066e-009
+vernier = 0.888888
+vernier = 1
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 08 12:46:01 2022
+Total elapsed time: 0.181 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 11213
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 61
+fillins = 65
+solver = Normal
+Matrix Compiler1: 5.17 KB object code size  2.1/1.5/[1.2]
+Matrix Compiler2: 6.11 KB object code size  2.1/2.3/[1.1]
+
